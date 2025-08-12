@@ -3,9 +3,9 @@
 echo "🔧 Bootstrapping Potentia Protocol..."
 sleep 3
 # ✅ Update system
-#pkg update -y
+pkg update -y
 #pkg upgrade -y
-#pkg install python termux-api cronie -y
+pkg install python termux-api cronie -y
 
 echo " 📁 Creating base directories...~/potentia/drops/universe"
 
